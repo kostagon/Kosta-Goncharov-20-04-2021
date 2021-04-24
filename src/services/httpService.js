@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-const BASE_URL = 'http://dataservice.accuweather.com';
+const BASE_URL = 'https://dataservice.accuweather.com';
 
 export async function ajax(endpoint, metricStr = '') {
     try {
