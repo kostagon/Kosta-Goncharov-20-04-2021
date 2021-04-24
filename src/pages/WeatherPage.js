@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SearchBar from '../cmps/SearchBar';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import LocationDetails from '../cmps/LocationDetails';
 
 import { getLocations, getLocation, setLocation, getWeather, getForecast } from '../store/actions/rootActions';
 
 export default function WeatherPage() {
-    const location = useSelector(state => state.location);
     const dispatch = useDispatch();
 
     const onSearch = (searchStr, isFullName = false) => {
@@ -22,8 +21,6 @@ export default function WeatherPage() {
     return (
         <div className="weather-page">
             <SearchBar onSearch={onSearch} onGetWeather={onGetWeather} />
-            {/* <LocationList onLocationClick={onLocationClick} /> */}
-            {/* <TestTest />  */}
             <div className="weather-details">
                 <LocationDetails />
             </div>

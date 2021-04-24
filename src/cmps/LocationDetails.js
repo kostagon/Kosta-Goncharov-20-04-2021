@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Grid, Paper, Typography, Container, Button, ButtonGroup } from '@material-ui/core';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import { makeStyles } from '@material-ui/core/styles';
 import { getWeather, getLocation, getForecast, updateFavorites } from '../store/actions/rootActions';
 import Moment from 'react-moment';
@@ -85,8 +84,6 @@ export default function LocationDetails() {
     const locations = useSelector(state => state.favLocations);
     const forecast = useSelector(state => state.forecast);
     const dispatch = useDispatch();
-
-    // const dateToFormat = weather.LocalObservationDateTime;
 
     useEffect(() => {
         dispatch(getLocation(location.LocalizedName))
