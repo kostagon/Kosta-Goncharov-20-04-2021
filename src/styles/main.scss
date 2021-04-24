@@ -1,0 +1,12 @@
+// Base
+@import './base/setup';
+@import './base/helpers';
+
+// Pages
+@import './pages/FavoritesPage.scss';
+
+// Components
+@import './cmps/NavBar';
+@import './cmps/SearchBar';
+@import './cmps/LocationList.scss';
+@import './cmps/LocationItem.scss';

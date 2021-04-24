@@ -1,0 +1,10 @@
+.location-item {
+    padding: 7px;
+    margin: 7px;
+    transition: background-color .5s;
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(214, 214, 214, 0.247);
+        outline: 1px solid rgba(0, 0, 0, 0.041);
+    }
+}

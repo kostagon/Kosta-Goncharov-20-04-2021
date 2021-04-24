@@ -1,0 +1,16 @@
+.app-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    font-size: 1.3rem;
+    background-color: rgb(179, 177, 177);
+    a {
+        margin: 0 5px;
+        text-decoration: none;
+        &:hover {
+            color: black;
+        }
+    }
+}
