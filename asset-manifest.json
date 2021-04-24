@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Kosta-Goncharov-20-04-2021/static/css/main.853f88e0.chunk.css",
-    "main.js": "/Kosta-Goncharov-20-04-2021/static/js/main.eb7dc90f.chunk.js",
-    "main.js.map": "/Kosta-Goncharov-20-04-2021/static/js/main.eb7dc90f.chunk.js.map",
+    "main.js": "/Kosta-Goncharov-20-04-2021/static/js/main.0f9777e7.chunk.js",
+    "main.js.map": "/Kosta-Goncharov-20-04-2021/static/js/main.0f9777e7.chunk.js.map",
     "runtime-main.js": "/Kosta-Goncharov-20-04-2021/static/js/runtime-main.d0dd7562.js",
     "runtime-main.js.map": "/Kosta-Goncharov-20-04-2021/static/js/runtime-main.d0dd7562.js.map",
     "static/css/2.0bfbf27f.chunk.css": "/Kosta-Goncharov-20-04-2021/static/css/2.0bfbf27f.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.0bfbf27f.chunk.css",
     "static/js/2.62818393.chunk.js",
     "static/css/main.853f88e0.chunk.css",
-    "static/js/main.eb7dc90f.chunk.js"
+    "static/js/main.0f9777e7.chunk.js"
   ]
 }
