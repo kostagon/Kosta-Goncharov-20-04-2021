@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Kosta-Goncharov-20-04-2021/static/css/main.853f88e0.chunk.css",
+    "main.js": "/Kosta-Goncharov-20-04-2021/static/js/main.c92098ac.chunk.js",
+    "main.js.map": "/Kosta-Goncharov-20-04-2021/static/js/main.c92098ac.chunk.js.map",
+    "runtime-main.js": "/Kosta-Goncharov-20-04-2021/static/js/runtime-main.d0dd7562.js",
+    "runtime-main.js.map": "/Kosta-Goncharov-20-04-2021/static/js/runtime-main.d0dd7562.js.map",
+    "static/css/2.0bfbf27f.chunk.css": "/Kosta-Goncharov-20-04-2021/static/css/2.0bfbf27f.chunk.css",
+    "static/js/2.62818393.chunk.js": "/Kosta-Goncharov-20-04-2021/static/js/2.62818393.chunk.js",
+    "static/js/2.62818393.chunk.js.map": "/Kosta-Goncharov-20-04-2021/static/js/2.62818393.chunk.js.map",
+    "index.html": "/Kosta-Goncharov-20-04-2021/index.html",
+    "static/css/2.0bfbf27f.chunk.css.map": "/Kosta-Goncharov-20-04-2021/static/css/2.0bfbf27f.chunk.css.map",
+    "static/css/main.853f88e0.chunk.css.map": "/Kosta-Goncharov-20-04-2021/static/css/main.853f88e0.chunk.css.map",
+    "static/js/2.62818393.chunk.js.LICENSE.txt": "/Kosta-Goncharov-20-04-2021/static/js/2.62818393.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Kosta-Goncharov-20-04-2021/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0dd7562.js",
+    "static/css/2.0bfbf27f.chunk.css",
+    "static/js/2.62818393.chunk.js",
+    "static/css/main.853f88e0.chunk.css",
+    "static/js/main.c92098ac.chunk.js"
+  ]
+}
