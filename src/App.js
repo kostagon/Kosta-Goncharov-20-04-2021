@@ -16,7 +16,7 @@ function WeatherApp() {
         <NavBar />
         <section className="main-content">
           <Switch>
-            <Route exact path="/">
+            <Route path="/Kosta-Goncharov-20-04-2021">
               <WeatherPage />
             </Route>
             <Route path="/favorites">

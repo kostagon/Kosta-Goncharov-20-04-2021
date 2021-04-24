@@ -14,7 +14,6 @@ export const UPDATE_FAVORITES = 'UPDATE_FAVORITES';
 
 export const getLocation = (searchStr = 'Tel Aviv') => async (dispatch, getState) => {
     const location = await ajax(`locations/v1/cities/search?q=${searchStr}&`);
-    // const location = locations.filter(loc => loc.LocalizedName === searchStr);
     dispatch({
         type: SET_LOCATION,
         payload: location[0]

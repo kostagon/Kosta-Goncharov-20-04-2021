@@ -32,7 +32,7 @@ export default function NavBar() {
                         WezzerApp
                     </Typography>
                     <ButtonGroup variant="contained" color="primary">
-                        <Button component={NavLink} to="/" exact activeClassName={classes.active}>
+                        <Button component={NavLink} to="/Kosta-Goncharov-20-04-2021" activeClassName={classes.active}>
                             Weather
                         </Button>
                         <Button component={NavLink} to="/favorites" activeClassName={classes.active}>
